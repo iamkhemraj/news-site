@@ -1,13 +1,20 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import Head from "next/head";
+import Layout from "../components/Layout";
 
+export default function Home(){
 
-const inter = Inter({ subsets: ["latin"] });
+  return (  
+    <>
+      <Head>
+          <title>Create News site</title>
+          <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      </Head>
 
-export default function Home() {
-  return (
-    <div>
-        <h1 className="heading">HI THIS IS A HOME PAGE!</h1>
-    </div>
+      <div className="news__section">
+          <Layout>
+              inside layout.
+          </Layout>
+      </div>
+    </>
   );
 }
