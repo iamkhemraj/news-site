@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass ./sass/style.scss ./css/style.css",
+    "watch:sass": "sass -w ./sass/style.scss ./css/style.css"
   },
   "dependencies": {
     "next": "14.2.3",
