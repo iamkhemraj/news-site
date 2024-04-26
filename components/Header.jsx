@@ -1,3 +1,4 @@
+// Component 
 import Link from "next/link";
 import { Component } from "react";
 import { AiOutlineBell, AiOutlineUser } from "react-icons/ai";
@@ -7,7 +8,7 @@ import { GiAstronautHelmet } from "react-icons/gi";
 export default function Layout({ children }) {
    return (
       <div>
-          HEADER
+         HEADER
       </div>
    );
 }
