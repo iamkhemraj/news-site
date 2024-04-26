@@ -1,17 +1,18 @@
 import Head from "next/head";
-import Layout from ".././components/Layout";
+import Layout from "../components/Layout";
+import Homepage from "../components/Homepage";
 
 export default function Home(){
 
   return (  
     <>
       <Head>
-          <title>Create News site</title>
+          <title>GET TIME</title>
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </Head>
 
       <Layout>
-          This is inner content
+         <Homepage/>
       </Layout>
     </>
   );
