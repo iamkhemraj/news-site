@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../components/Layout";
+import Layout from ".././components/Layout";
 
 export default function Home(){
 
@@ -10,11 +10,9 @@ export default function Home(){
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </Head>
 
-      <div className="news__section">
-          <Layout>
-              inside layout.
-          </Layout>
-      </div>
+      <Layout>
+          This is inner content
+      </Layout>
     </>
   );
 }
